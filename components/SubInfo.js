@@ -1,4 +1,4 @@
-
+import React from "react";
 import { View, Image, Text } from "react-native";
 
 import { SIZES, FONTS, COLORS, SHADOWS, assets } from "../constants";
@@ -15,7 +15,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
       >
         {title}
       </Text>
-      {/* <Text
+      <Text
         style={{
           fontFamily: FONTS.regular,
           fontSize: subTitleSize,
@@ -23,7 +23,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
         }}
       >
         by {subTitle}
-      </Text> */}
+      </Text>
     </View>
   );
 };
